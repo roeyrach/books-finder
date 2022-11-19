@@ -2,7 +2,7 @@ import React from "react";
 
 import Book from "./Book.js";
 
-const Search = () => {
+const BooksList = () => {
   const books = [
     {
       volumeInfo: {
@@ -37,4 +37,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default BooksList;

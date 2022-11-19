@@ -9,7 +9,7 @@ import {
 import './App.css';
 
 import Home from './components/Home';
-import Search from './components/Search';
+import BooksList from './components/BooksList';
 import WishList from './components/WishList';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/search">Search</Link>
+              <Link to="/bookslist">BooksList</Link>
             </li>
             <li>
               <Link to="/wishlist">Wish List</Link>
@@ -30,7 +30,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/search" element={<Search/>}>
+          <Route path="/bookslist" element={<BooksList/>}>
           </Route>
           <Route path="/wishlist" element={<WishList/>}>
           </Route>
