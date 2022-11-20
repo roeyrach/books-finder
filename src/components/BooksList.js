@@ -32,7 +32,8 @@ const BooksList = () => {
 
   return (
     <div>
-      {books.map(book => <Book {...book} />)}
+      <Book {...books[0]} />
+      <Book {...books[1]} />
     </div>
   );
 };
